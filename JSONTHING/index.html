@@ -1,0 +1,14 @@
+<html>
+    <head>
+    <script>
+        const {ipcRenderer} = require('electron');
+
+ipcRenderer.on('foo', (event, data) => {
+        alert(data); // prints 'do something for me'
+});
+</script>
+    </head>
+    <body>
+        <p id="toReplace">Inner Text</p>
+    </body>
+</html>>
