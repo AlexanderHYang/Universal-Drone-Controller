@@ -10,7 +10,7 @@
     "xpc-connection": "git://github.com/taoyuan/node-xpc-connection.git"
   },
   "devDependencies": {
-    "electron": "^7.0.0"
+    "electron": "^13.6.6"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
